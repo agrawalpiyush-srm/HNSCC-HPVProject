@@ -1,7 +1,7 @@
 ### HNSCC-HPVProject ###
 This project aims to characterize key genes which are assocaited with key transcriptome changes in HNSCC HPV-Positive and HPV-negative subtypes. Also, the study aims to address the heterogeneity problem
 
-Project Overview
+##### Project Overview ######
 
 Head and Neck Squamous Cell Carcinoma (HNSCC) is group of malignancies that results from the head and neck squamous cell linings. It is the seventh most prevalent cancer worldwide accounting for ~4.5% of the global death toll, with 890,000 new cases and 450,000 deaths per annum with India leading the chart and accounting for around 80% of all the cases. One of the main causes of these rising cases is due to chewing of the areca nut, which is carcinogenic in nature. Human papillomavirus (HPV) infection has been seen in the HNSCC, based on the detection of HPV DNA, notably HPV-16 it can be broadly categorized into two subtypes: HPV-positive (HPV-Pos) and HPV-negative (HPV-Neg). These two categories differ significantly in their molecular profile, etiopathogenesis, and clinical outcomes and HPV-Neg subtype accounts alone for ~75% of the cases and has a significantly worse prognosis compared to the HPV-Pos subtype. Treatment options include surgery, chemotherapy, radiotherapy, and targeted agents such as EGFR monoclonal antibody (mAb) inhibitors and two PD-1 inhibitors; however, the overall response rates have been moderate. Hence, there is a need to identify novel drug targets for better health outcomes.
 Most transcriptome wide studies for HNSCC HPV subtypes have focused on differentially expressed genes (DEGs) which does not necessarily reveal the genes that mediate the transcriptomic changes. In contrast, our network-based tool, PathExt mines transcriptomic data for differentially expressed paths in a curated gene network to identify central genes mediating the transcriptomic response. We have previously established the superiority of PathExt over the conventional approaches relying on DEGs. (Agrwal et.al., iScience, 2024 Apr 16;27(5):109752, Agrawal et.al., Front. Immunol. 2022 Jul1:13:918817).
@@ -24,7 +24,7 @@ Next, run code "Activated_node_weight.r" to compute node weight for the Activate
 
 The provided code compute value for one sample. User can run the code in loop for multiple samples.
 
-Code Usage:
+###### Code Usage: ######
 
 /usr/local/bin/Rscript Activated_node_weight.r ##### For computing Activated Node Weight
 
